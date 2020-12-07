@@ -1,0 +1,14 @@
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #6ccac1;
+    /* background-color: #4db6ac; */
+    /* font-weight:bold; */
+    text-shadow: 2px 2px 4px #000000 !important;
+  }
+
+  .ant-menu-dark .ant-menu-inline.ant-menu-sub{
+      background-color: #004d40;
+  }
+
+  .ant-layout-sider-zero-width-trigger{
+      background-color:#00796b;
+  }

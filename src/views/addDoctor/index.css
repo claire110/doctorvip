@@ -1,0 +1,21 @@
+.addDoctorForm{
+    display: flex;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.addDoctorContent{
+    width: 100%;
+}
+
+.addDoctorContent h2{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.uploadFile{
+    display: inline;
+}
+

@@ -1,0 +1,26 @@
+.layout{
+    height: 100vh;
+}
+
+.header{
+    position: relative;
+    z-index: 2;
+    height: 75px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content{
+    border: 10px solid rgb(226, 223, 223);
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    
+}
+.footerText{
+    margin-bottom: -0.5em;
+    margin-top: -0.5em;
+}
+
+.footerTime{
+    margin-bottom: -0.5em;
+}

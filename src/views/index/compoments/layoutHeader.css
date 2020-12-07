@@ -1,0 +1,38 @@
+
+#logo{
+    width: 250px;
+    margin-left: -88px;
+    display: flex;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo img{
+    width: 40px;
+    height: 40px;
+}
+
+#logo{
+    display: block;
+    width: 177px;
+    height: 47px;
+}
+
+.logoutButton{
+    float: right;
+    top: 29%;
+    color: rgb(214, 213, 213);
+ 
+}
+
+.logoutHover :hover{
+    color:white;
+}
+
+
+
+.time{
+    color: white;
+    top: 25%;
+}

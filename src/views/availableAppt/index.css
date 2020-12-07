@@ -1,0 +1,26 @@
+.delApptButton{
+    margin: 0.5em;
+}
+.delApptButton:hover, .delApptButton:focus{
+    color:#ef5350 ;
+    border-color: #ef5350;
+}
+.planButton{
+    margin: 0.5em;
+}
+
+.editPlan{
+    color: white;
+}
+.aviButton{
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+    .ant-table-row-expand-icon-cell{
+        display: none;
+    }
+    .ant-table-row-expand-icon{
+        display: none;
+    }
+}

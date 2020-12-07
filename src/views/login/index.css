@@ -1,0 +1,47 @@
+body{
+  background-image: url(../../img/1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+.hompage{
+    margin-top: 3%;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+
+}
+h1{
+    color: rgb(248, 248, 248) !important;
+    text-shadow: 2px 2px 4px #000000 !important;
+    font-size: 3em;    
+    font-weight: 1000;
+}
+.login{
+    margin-top: 2%;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.loginForm{
+    max-width: 300px;
+    background-color: rgb(253, 251, 251);
+    padding: 3em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginForm h3{
+    margin-bottom: 1em;
+}
+
+.homeLogo{
+    width: 80px;
+    height: 80px;
+    margin-left: 2em;
+    margin-top: 2em;
+}
