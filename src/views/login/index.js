@@ -123,9 +123,10 @@ class Login extends Component{
                                     {required: true, message: 'Please input your username!' },
                                     {pattern: validate_username, message:"Username is invalid, 2 characters at least." }
                                 ]}>
-                                <Input placeholder="Username" 
+                                <Input 
                                     prefix={<UserOutlined className="site-form-item-icon" />} 
                                     value={this.state.username}
+                                    placeholder = "admin"
                                     onChange={(event)=>this.handleChange(event, "username")}
                                 />
                             </Form.Item>
@@ -135,10 +136,11 @@ class Login extends Component{
                                     {required: true, message: 'Please input password!' },
                                     {pattern: validate_password, message:"Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters.." }
                                 ]}>
-                                <Input.Password placeholder="Password"
+                                <Input.Password 
                                     prefix={<LockOutlined className="site-form-item-icon"/>}
                                     type="password"
                                     value={this.state.password}
+                                    placeholder = "Test123456"
                                     onChange={(event)=>this.handleChange(event, "password")}
                                 />
                             </Form.Item>
